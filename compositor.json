@@ -1,0 +1,85 @@
+{
+  "name": "ntaylor89/spotable",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Spotable",
+  "branch": "",
+  "style": {
+    "name": "Williamsburg",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/LightBannerHeader",
+      "article": "article/ReaderArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
+    "colors": {
+      "text": "#346",
+      "background": "#fff",
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/ntaylor89/spotable",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/spotable",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "spotable",
+      "subhead": "Experimenting with the Spotify API",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "spotable: Experimenting with the Spotify API",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "ntaylor89",
+          "repo": "spotable"
+        }
+      ],
+      "text": "v0.1.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p><strong>Work in progress</strong></p>\n<p>Build better playlists with data from the <a href=\"https://developer.spotify.com/web-api/\">Spotify API</a>.</p>\n<h2>Installation</h2>\n<pre>git <span class=\"hljs-keyword\">clone</span> <span class=\"hljs-title\">https</span>://github.com/ntaylor89/spotable.git\ncd spotable\nnpm i</pre><h2>Usage</h2>\n<pre>npm <span class=\"hljs-built_in\">start</span>\n<span class=\"hljs-built_in\">open</span> localhost:<span class=\"hljs-number\">3000</span></pre><h2>License</h2>\n<p>MIT</p>\n<h2>Contributing</h2>\n<ol>\n<li>Fork it</li>\n<li>Create your featur branch (<code>git checkout -b my-new-feature</code>)</li>\n<li>Commit your changes (<code>git commit -am &apos;Add some feature&apos;</code>)</li>\n<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>\n<li>Create new Pull Request</li>\n</ol>\n<p>Note that this repo follows <a href=\"http://standardjs.com/\">JavaScript Standard Style</a></p>\n<p>Made with \\&lt;3 by Nate Taylor</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/ntaylor89/spotable",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/ntaylor89",
+          "text": "ntaylor89"
+        }
+      ]
+    }
+  ]
+}
