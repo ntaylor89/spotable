@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () => (
-  <header className='tc pv4 pv5-ns'>
-    <h1 className='f6 gray fw2 ttu tracked'>Spotable</h1>
+  <header className='bg-white ph4 bb b--black-10 dt w-100'>
+    <h1 className='f4 fw6 mr4 dib gray tracked'>Spotable</h1>
   </header>
 )
