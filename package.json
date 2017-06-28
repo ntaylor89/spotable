@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
-    "tachyons": "^4.7.1",
+    "react-sortable-hoc": "^0.6.3",
+    "spotify-web-api-node": "^2.4.0",
+    "tachyons": "^4.7.4",
     "tachyons-cli": "^1.0.11",
-    "victory": "^0.19.0"
+    "victory": "^0.19.1"
   },
   "devDependencies": {
     "ava": "^0.19.1",
