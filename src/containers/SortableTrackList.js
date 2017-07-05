@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {arrayMove} from 'react-sortable-hoc'
-import TrackTable from '../components/TrackTable'
+import TrackList from '../components/TrackList/TrackList'
 
 const albumId = '2BRqfk8jL7y3egZqlc5MkU'
 
@@ -30,15 +30,15 @@ class SortableTrackList extends Component {
   render () {
     if (this.state.tracks.length) {
       return (
-        <TrackTable
+        <TrackList
           tracks={this.state.tracks}
           onSortEnd={this.onSortEnd}
-          pressDelay={200}
+          pressDelay={100}
           helperClass='' />
       )
     } else {
       return (
-        <p className='w-100 mw8 center'>There are no tracks in your playlist yet!</p>
+        <p className='w-100 mw8 center'>Please login to continue!</p>
       )
     }
   }
